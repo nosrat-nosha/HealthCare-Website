@@ -1,0 +1,23 @@
+.logo {
+	width: 20px;
+	
+}
+.Nav-bg {
+	background: rgba(92, 179, 92, 0.856);
+}
+.nav-li {
+	text-decoration: none;
+	margin-left: 8px;
+	padding: 6px;
+	font-size: 20px;
+	color: rgb(37, 34, 34);
+}
+.nav-li:hover {
+	color: rgb(37, 34, 34);
+	box-shadow: 2px 2px 2px 2px rgba(92, 179, 92, 0.856);
+}
+.email-img {
+	width: 50px;
+	border-radius: 30px;
+	padding: 5px 5px;
+}

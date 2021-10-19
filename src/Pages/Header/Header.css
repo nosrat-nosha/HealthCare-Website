@@ -1,0 +1,40 @@
+.header-container {
+	background-image: url(../../images/image/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	/* r
+	rgb(39, 39, 94);
+	*/
+}
+
+.banner-text {
+	margin-top: 132px;
+}
+.banner-text h1 {
+	color: rgba(92, 179, 92, 0.856);
+	text-shadow: 1px 1px 1px rgb(40, 44, 109), 3px 3px 5px rgb(230, 230, 238);
+	/* font-size: 50px; */
+}
+.btn-appointment {
+	background: rgba(92, 179, 92, 0.856);
+	/* background: rgb(40, 44, 109); */
+	width: 300px;
+	border-radius: 30px;
+	padding: 10px;
+}
+.appointment-text {
+	color: white;
+	text-decoration: none;
+}
+
+.appointment-text:hover {
+	color: white;
+	text-decoration: none;
+}
+.btn-search {
+	background: rgba(92, 179, 92, 0.856);
+	border-radius: 20px;
+	width: 50px;
+}

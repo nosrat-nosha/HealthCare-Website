@@ -1,0 +1,58 @@
+/* about us section  */
+
+aboutUs-left h2 {
+	font-size: 40px;
+}
+.aboutUs-left p {
+	color: rgb(94, 90, 90);
+	font-weight: 600;
+}
+.check-mark {
+	width: 20px;
+}
+/* services */
+.service-card {
+	transform: translateY(-3px);
+	transition: 0.4s;
+	color: rgb(88, 82, 82);
+}
+.service-card:hover {
+	background: rgba(77, 175, 77, 0.658);
+	transform: translateY(-3px);
+	transition: 0.4s;
+	color: white;
+}
+.btn-service {
+	background: rgb(77, 175, 77);
+	color: black;
+	text-decoration: none;
+}
+.button-service {
+	color: white;
+	text-decoration: none;
+}
+.button-service:hover {
+	background: rgb(77, 175, 77);
+	color: white;
+	text-decoration: none;
+}
+/* doctor section  */
+.card-bg {
+	background: rgba(92, 179, 92, 0.733);
+	color: white;
+	transition: 0.5s;
+}
+.card-bg:hover {
+	background: rgb(92, 179, 92);
+	color: white;
+	transform: translateY(-10px);
+	transition: 0.5s;
+}
+.card-p {
+	overflow-y: scroll;
+	height: 200px;
+}
+.title-design {
+	background: rgba(92, 179, 92, 0.452);
+	border-radius: 5px;
+}

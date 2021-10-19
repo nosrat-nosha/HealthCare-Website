@@ -1,0 +1,11 @@
+.about-container {
+	background-image: url(../../images/image/appointment-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+.banner-text h4 {
+	color: rgba(92, 179, 92, 0.856);
+	text-shadow: 1px 1px 1px rgb(40, 44, 109), 3px 3px 5px rgb(230, 230, 238);
+}
