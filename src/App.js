@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Home from "./Pages/Home/Home";
 import Navigation from "./Pages/Navigation/Navigation";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Router, Switch, Route } from "react-router-dom";
 import LogIn from "./Pages/LogIn/LogIn";
 
 import Registration from "./Pages/Registration/Registration";
