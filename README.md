@@ -2,11 +2,9 @@
 
 #Live site Link [Hopewell hospital](https://react-assignment-10-f0ce1.web.app).
 
-## Available Scripts
+## All ABOUT OUR HOSPITAL
 
-In the project directory, you can run:
-
-### `npm start`
+#Some information about our hospital
 
 -Our hospital is number one hospital.
 <br/>

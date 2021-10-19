@@ -172,9 +172,8 @@ const MainSection = () => {
 								</div>
 								<button className="btn w-50 btn-service  m-3">
 									<Link className="button-service" to="/service">
-										{" "}
 										Services
-									</Link>{" "}
+									</Link>
 								</button>
 							</div>
 						</div>
@@ -211,9 +210,8 @@ const MainSection = () => {
 										<br />
 										<button className="btn w-50 btn-service text-center  m-3">
 											<Link className="button-service" to="/service">
-												{" "}
 												Services
-											</Link>{" "}
+											</Link>
 										</button>
 									</p>
 								</div>
@@ -287,7 +285,7 @@ const MainSection = () => {
 										aria-expanded="false"
 										aria-controls="collapseThree"
 									>
-										What is a faculty physician?{" "}
+										What is a faculty physician?
 									</button>
 								</h2>
 								<div

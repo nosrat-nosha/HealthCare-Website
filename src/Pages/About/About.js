@@ -27,7 +27,7 @@ const About = () => {
 					<div className="container-fluid mt-3">
 						<div className="row">
 							<div className="col-lg-6 col-sm-12 p-5 aboutUs-left">
-								<h5 className="text-success">About US</h5>
+								<h5 className="text-success">About Us</h5>
 								<h2>Short List Of Our Services </h2>
 								<p>
 									We Always try to provide our clients best services.In our
