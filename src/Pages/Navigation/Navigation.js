@@ -12,10 +12,7 @@ const Navigation = () => {
 		<div>
 			<Navbar bg="" className="Nav-bg" expand="lg">
 				<Container>
-					<Navbar.Brand
-						href="/home"
-						className="text-white fw-bold shadow-sm p-3"
-					>
+					<Navbar.Brand to="/home" className="text-white fw-bold shadow-sm p-3">
 						Hopewell Hospital
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />

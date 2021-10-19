@@ -126,7 +126,7 @@ const MainSection = () => {
 										Work Environment For work
 									</div>
 									<button className="btn w-25 btn-service  m-3">
-										<Link className="button-service" to="/service">
+										<Link className="button-service" to="/doctor">
 											{" "}
 											Services
 										</Link>{" "}
@@ -171,7 +171,10 @@ const MainSection = () => {
 									</p>
 								</div>
 								<button className="btn w-50 btn-service  m-3">
-									<Link className="button-service" to="/service">
+									<Link
+										className="button-service"
+										to={`/service/${service.key}`}
+									>
 										Services
 									</Link>
 								</button>

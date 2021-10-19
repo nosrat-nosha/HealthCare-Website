@@ -48,7 +48,7 @@ const services = [
 		description:
 			"Otolaryngology is a medical specialty which is focused on the ears, nose, and throat. It is also called otolaryngology-head and neck surgery because specialists are trained in both medicine and surgery.  An otolaryngologist is often called an ear, nose, and throat doctor, or an ENT for short.",
 		death_ratio: "1.42% ",
-		key: "s5",
+		key: "h5",
 	},
 
 	{

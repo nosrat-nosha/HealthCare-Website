@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 
 const Service = () => {
@@ -10,12 +11,13 @@ const Service = () => {
 			.then((res) => res.json())
 			.then((data) => setServices(data));
 	}, []);
+	const { serviceKey } = useParams();
 	return (
 		<div>
 			<section>
 				<div className="row mt-5">
 					<div className="col-lg-4 text-center mx-auto">
-						<h5 className="text-success  ">Our Services</h5>
+						<h5 className="text-success  ">Our Services ={serviceKey}</h5>
 						<h2>Our Health Care Services</h2>
 						<p className="text-secondary">
 							Your health is our first priority. We always try to give you our

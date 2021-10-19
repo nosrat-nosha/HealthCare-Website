@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Home from "./Pages/Home/Home";
 import Navigation from "./Pages/Navigation/Navigation";
-import { Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LogIn from "./Pages/LogIn/LogIn";
 
 import Registration from "./Pages/Registration/Registration";
@@ -15,6 +15,8 @@ import Footer from "./Pages/Footer/Footer";
 import NotFound from "./Pages/NotFound/NotFound";
 import Doctor from "./Pages/Doctors/Doctor";
 
+import Deails from "./Pages/Details/Deails";
+
 function App() {
 	return (
 		<div className="App">
@@ -25,7 +27,8 @@ function App() {
 						<Route path="/home">
 							<Home></Home>
 						</Route>
-						<PrivateRoute path="/service">
+
+						<PrivateRoute path="/service/:serviceKey">
 							<Service></Service>
 						</PrivateRoute>
 						<PrivateRoute path="/about">
