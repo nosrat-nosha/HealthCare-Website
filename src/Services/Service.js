@@ -7,7 +7,7 @@ const Service = () => {
 	const [services, setServices] = useState([]);
 	// useState for services
 	useEffect(() => {
-		fetch("./services.JSON")
+		fetch("/services.JSON")
 			.then((res) => res.json())
 			.then((data) => setServices(data));
 	}, []);
@@ -26,7 +26,7 @@ const Service = () => {
 					</div>
 					<hr />
 				</div>
-				<div className="container row row-cols-1 row-cols-md-3 gy-5 mx-auto mt-1">
+				<div className="container row row-cols-1 row-cols-md-1 gy-5 mx-auto mt-1">
 					{services?.map((service) => (
 						<div className="col">
 							<div className="card shadow service-card h-100">
