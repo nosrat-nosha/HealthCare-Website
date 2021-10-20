@@ -30,9 +30,9 @@ const About = () => {
 								<h5 className="text-success">About Us</h5>
 								<h2>Short List Of Our Services </h2>
 								<p>
-									We Always try to provide our clients best services.In our
-									Hospital every doctor is very qualified . Our Clinic is very
-									neat and clean
+									We Always try to provide best services to our clients.In our
+									Hospital every doctor is very qualified and very friendly.We
+									give 24h service if needed.
 								</p>
 								<div className="">
 									<div className="py-2">

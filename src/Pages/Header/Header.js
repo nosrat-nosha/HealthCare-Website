@@ -10,7 +10,7 @@ const Header = () => {
 					<div className="col-lg-6">
 						<div className="banner-text p-5">
 							<small className="text-success">Best Health Service</small>
-							<h1>HOPEWELL HOSPITAL IS ONE OF THE BEST HOSPITAL IN TOWN</h1>
+							<h1>HOPEWELL HOSPITAL IS ONE OF THE BEST HOSPITAL IN THE TOWN</h1>
 							<p className="fw-bold text-secondary">
 								"The power of community to create health is far greater than any
 								physician, clinic or hospital."
@@ -29,12 +29,6 @@ const Header = () => {
 								<i class="fas fa-search text-white"></i>
 							</button>
 						</div>
-						{/* <button className="btn w-25 btn-sm ms-5 btn-appointment  m-3">
-							<Link className="appointment-text" to="/login">
-								{" "}
-								MAKE APPOINTMENT <i class="fas fa-arrow-right ms-2"></i>
-							</Link>{" "}
-						</button> */}
 					</div>
 				</div>
 			</div>

@@ -103,7 +103,7 @@ const Registration = () => {
 	return (
 		<div className="pt-5 mt-5 shadow row col-lg-6 col-sm-12 mx-auto form-containe">
 			<h2 className="text-center text-success">
-				{isLogIn ? "LOG IN" : "SIGN IN"}
+				{isLogIn ? "LOG IN" : "SIGN UP"}
 			</h2>
 			<form className="p-5 " onSubmit={handelToRegistration}>
 				<div className="row mb-3">
@@ -139,7 +139,7 @@ const Registration = () => {
 							type="submit"
 							className="btn btn-service  mx-auto mt-5  text-white"
 						>
-							{isLogIn ? "Log In" : "Sign In"}
+							{isLogIn ? "Log In" : "Sign Up"}
 						</button>
 					</div>
 				</div>
@@ -154,7 +154,7 @@ const Registration = () => {
 								id="gridCheck1"
 							/>
 							<label className="form-check-label" htmlFor="gridCheck1">
-								Already Signed In?
+								Already Signed Up?
 							</label>
 						</div>
 					</div>

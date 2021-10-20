@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Nav, Navbar, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useAuth from "../../hook/useAuth";
-import logo from "../../images/image/logo.png";
 
 import "./Navigation.css";
 
@@ -37,7 +36,7 @@ const Navigation = () => {
 								</Link>
 							) : (
 								<Link className="nav-li text-white" to="/registration">
-									Sign In
+									Sign Up
 								</Link>
 							)}
 						</Nav>

@@ -19,8 +19,8 @@ const Service = () => {
 					<h5 className="text-success  ">Our Services</h5>
 					<h2>Our Health Care Services</h2>
 					<p className="text-secondary ">
-						Your health is our first priority. We always try to give you our
-						best services
+						Your health is our first priority. We always give best services to
+						our clients.
 					</p>
 				</div>
 				<hr />
