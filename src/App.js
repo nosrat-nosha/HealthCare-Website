@@ -24,12 +24,17 @@ function App() {
 				<Router>
 					<Navigation></Navigation>
 					<Switch>
+						<Route exact path="/">
+							<Home></Home>
+						</Route>
 						<Route path="/home">
 							<Home></Home>
 						</Route>
-
-						<PrivateRoute path="/service/:serviceKey">
+						<PrivateRoute path="/service">
 							<Service></Service>
+						</PrivateRoute>
+						<PrivateRoute path="/Deails/:serviceKey">
+							<Deails></Deails>
 						</PrivateRoute>
 						<PrivateRoute path="/about">
 							<About></About>
@@ -37,9 +42,7 @@ function App() {
 						<PrivateRoute path="/doctor">
 							<Doctor></Doctor>
 						</PrivateRoute>
-						<Route path="/login">
-							<LogIn></LogIn>
-						</Route>
+
 						<Route path="/registration">
 							<Registration></Registration>
 						</Route>

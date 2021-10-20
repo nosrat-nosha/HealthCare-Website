@@ -48,6 +48,11 @@ const Footer = () => {
 								Doctors
 							</Link>
 						</p>
+						<p>
+							<Link className="d-block" to="/registration">
+								Sign In
+							</Link>
+						</p>
 					</div>
 					<div className="col-lg-3">
 						<h4 className="footer-border mb-3">Opening Hour</h4>

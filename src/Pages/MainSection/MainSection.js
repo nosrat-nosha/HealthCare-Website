@@ -32,18 +32,18 @@ const MainSection = () => {
 				<div className="mb-5">
 					<div className="container-fluid mt-3">
 						<div className="row">
-							<div className="col-lg-6 shadow">
+							<div className="col-lg-7 shadow">
 								<div
 									id="carouselExampleCaptions"
-									class="carousel slide"
+									className="carousel slide"
 									data-bs-ride="carousel"
 								>
-									<div class="carousel-indicators">
+									<div className="carousel-indicators">
 										<button
 											type="button"
 											data-bs-target="#carouselExampleCaptions"
 											data-bs-slide-to="0"
-											class="active"
+											className="active"
 											aria-current="true"
 											aria-label="Slide 1"
 										></button>
@@ -60,44 +60,48 @@ const MainSection = () => {
 											aria-label="Slide 3"
 										></button>
 									</div>
-									<div class="carousel-inner">
-										<div class="carousel-item active">
-											<img src={image2} class="d-block w-100" alt="..." />
+									<div className="carousel-inner">
+										<div className="carousel-item active">
+											<img
+												src={image2}
+												className="d-block w-100 mx-auto"
+												alt="..."
+											/>
 										</div>
-										<div class="carousel-item">
-											<img src={image1} class="d-block w-100" alt="..." />
+										<div className="carousel-item">
+											<img src={image1} className="d-block w-100" alt="..." />
 										</div>
-										<div class="carousel-item">
-											<img src={image3} class="d-block w-100" alt="..." />
+										<div className="carousel-item">
+											<img src={image3} className="d-block w-100" alt="..." />
 										</div>
 									</div>
 									<button
-										class="carousel-control-prev"
+										className="carousel-control-prev"
 										type="button"
 										data-bs-target="#carouselExampleCaptions"
 										data-bs-slide="prev"
 									>
 										<span
-											class="carousel-control-prev-icon"
+											className="carousel-control-prev-icon"
 											aria-hidden="true"
 										></span>
-										<span class="visually-hidden">Previous</span>
+										<span className="visually-hidden">Previous</span>
 									</button>
 									<button
-										class="carousel-control-next"
+										className="carousel-control-next"
 										type="button"
 										data-bs-target="#carouselExampleCaptions"
 										data-bs-slide="next"
 									>
 										<span
-											class="carousel-control-next-icon"
+											className="carousel-control-next-icon"
 											aria-hidden="true"
 										></span>
-										<span class="visually-hidden">Next</span>
+										<span className="visually-hidden">Next</span>
 									</button>
 								</div>
 							</div>
-							<div className="col-lg-6 col-sm-12 p-5 aboutUs-left">
+							<div className="col-lg-5 col-sm-12 p-5 aboutUs-left">
 								<h5 className="text-success">About US</h5>
 								<h2>Short List Of Our Services </h2>
 								<p>
@@ -126,7 +130,7 @@ const MainSection = () => {
 										Work Environment For work
 									</div>
 									<button className="btn w-25 btn-service  m-3">
-										<Link className="button-service" to="/doctor">
+										<Link className="button-service" to="/service">
 											{" "}
 											Services
 										</Link>{" "}
@@ -173,9 +177,9 @@ const MainSection = () => {
 								<button className="btn w-50 btn-service  m-3">
 									<Link
 										className="button-service"
-										to={`/service/${service.key}`}
+										to={`/deails/${service.key}`}
 									>
-										Services
+										Details
 									</Link>
 								</button>
 							</div>
@@ -212,8 +216,8 @@ const MainSection = () => {
 										Gender: {doctor.gender}
 										<br />
 										<button className="btn w-50 btn-service text-center  m-3">
-											<Link className="button-service" to="/service">
-												Services
+											<Link className="button-service" to="/doctor">
+												SEE MORE
 											</Link>
 										</button>
 									</p>

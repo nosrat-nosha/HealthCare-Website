@@ -30,16 +30,14 @@ const Navigation = () => {
 							<Link className="nav-li text-white" to="/doctor">
 								Doctors
 							</Link>
-							<Link className="nav-li text-white" to="/registration">
-								Registration
-							</Link>
+
 							{user.email ? (
 								<Link className=" nav-li text-white" onClick={logOut}>
-									log out
+									Log Out
 								</Link>
 							) : (
-								<Link className="nav-li text-white" to="/login">
-									LogIn
+								<Link className="nav-li text-white" to="/registration">
+									Sign In
 								</Link>
 							)}
 						</Nav>
@@ -47,7 +45,7 @@ const Navigation = () => {
 							<Navbar.Text>
 								<p className="text-white ">
 									Signed in as: {user.displayName}
-									<img className="email-img " src={user.photoURL} alt="" />
+									<img className="email-img " src={user?.photoURL} alt="" />
 								</p>
 							</Navbar.Text>
 						</div>

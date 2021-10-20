@@ -51,8 +51,6 @@ const useFirebase = () => {
 				console.log("state change", user);
 				setUser(user);
 			} else {
-				// User is signed out
-				// ...
 			}
 		});
 	}, []);
