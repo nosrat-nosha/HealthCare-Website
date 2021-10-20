@@ -18,7 +18,7 @@ const Service = () => {
 				<div className="col-lg-4 text-center mx-auto">
 					<h5 className="text-success  ">Our Services</h5>
 					<h2>Our Health Care Services</h2>
-					<p className="text-secondary ">
+					<p className="text-secondary">
 						Your health is our first priority. We always give best services to
 						our clients.
 					</p>
@@ -38,7 +38,8 @@ const Service = () => {
 							<div className="card-body mt-3">
 								<h5 className="card-title text-success">{service.name}</h5>
 								<p className="card-text">
-									<h4>What is {service.name} ?</h4> <br />
+									<h4 className="text-success">What is {service.name} ?</h4>{" "}
+									<br />
 									{service.description}
 								</p>
 							</div>

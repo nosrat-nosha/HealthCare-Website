@@ -14,19 +14,32 @@ const Deails = () => {
 	const selected = services.find((service) => service.key === serviceKey);
 
 	return (
-		<div className="">
+		<div className="row">
 			{/* <h1>{ selected?.name }</h1> */}
-			<Card className="mx-auto mt-5" style={{ width: "18rem" }}>
-				<Card.Img variant="top" src={selected?.img} />
+
+			<Card className=" col-lg-8 col-sm-4 mx-auto mt-5 shadow">
+				<Card.Img
+					variant="top"
+					className="w-25 mx-auto mt-3"
+					src={selected?.img}
+				/>
 				<Card.Body>
-					<Card.Title>{selected?.name}</Card.Title>
+					<Card.Title className="text-secondary fw-bold">
+						{selected?.name}
+					</Card.Title>
 					<Card.Text>
-						{" "}
-						<h5 className="text-primary">
-							What is {selected?.name}?
-						</h5> <br /> {selected?.description}
+						<br />
+						<h4 className="text-success">What is {selected?.name}?</h4>{" "}
+						{selected?.description}
 					</Card.Text>
-					<Card.Text>Solution :{selected?.solution}</Card.Text>
+					<Card.Text>
+						<h4 className="text-success">What is the solution ? </h4>{" "}
+						{selected?.solution}
+					</Card.Text>
+					<Card.Text>
+						<h4 className="text-success d-inline">Death ratio : </h4>{" "}
+						{selected?.death_ratio}
+					</Card.Text>
 				</Card.Body>
 			</Card>
 		</div>
